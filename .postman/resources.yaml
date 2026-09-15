@@ -1,9 +1,17 @@
 # Use this workspace to collaborate
 workspace:
-  id: a0446fb3-db43-4a51-a566-5647f2113582
+  id: a7b5ec11-abdd-40e2-9693-ab140cfe4a70
 
 localResources:
   collections:
-    - ../w2/postman/SOA-Minggu2.postman_collection.json
+    - ../w2/postman/SOA Minggu 2 - REST Service Dasar
   environments:
     - ../w2/postman/local.postman_environment.json
+    - ../w2/postman/postman/environments/local Copy.environment.yaml
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/SOA Minggu 2 - REST Service Dasar: b6cadb2a-400b-4a5c-9db3-f1cc05ce5456
+    ../w2/postman/SOA Minggu 2 - REST Service Dasar: 1bb55b0a-31d6-4534-a88a-671ca118bb15
